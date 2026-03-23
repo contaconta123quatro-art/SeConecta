@@ -56,15 +56,6 @@
           </NuxtLink>
         </div>
 
-        <!-- Stats badge -->
-        <div class="flex items-center gap-4 flex-wrap justify-center lg:justify-start" style="animation: fadeInUp 0.65s 0.4s ease both;">
-          <div class="flex items-center gap-2 bg-white/60 backdrop-blur-sm rounded-full px-4 py-2 shadow-sm border border-white/40">
-            <span class="w-2 h-2 rounded-full bg-[#079272] animate-[blink_2s_ease-in-out_infinite]"></span>
-          </div>
-          <div class="flex -space-x-2">
-            <div v-for="i in 4" :key="i" class="w-7 h-7 rounded-full bg-gradient-to-br from-[#079272] to-[#2464E8] border-2 border-white flex items-center justify-center text-white text-[9px] font-bold">{{ ['A','B','C','D'][i-1] }}</div>
-          </div>
-        </div>
       </div>
 
       <!-- LADO DIREITO — Modelo 3D do smartphone -->
